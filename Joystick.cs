@@ -125,6 +125,6 @@ public class Joystick : MonoBehaviour
 
         joystickBG.transform.GetChild(0).position = touchPosition;
 
-        //CC.Move(new Vector3(direction.x, 
+        //CC.Move(new Vector3(direction.x, 0, direction.y) * Time.deltaTime * 4f);
     }
 }
