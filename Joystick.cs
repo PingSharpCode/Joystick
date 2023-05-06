@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class JoystickV2 : MonoBehaviour
+public class Joystick : MonoBehaviour
 {
     [SerializeField] private RectTransform image;
     [SerializeField] private RectTransform canvas;
